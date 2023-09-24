@@ -1,0 +1,41 @@
+.post-method{
+    text-align: center;
+    h1{
+        background: green;
+       
+        color: #fff;
+        
+    }
+   
+    button{
+        background: green;
+        padding: 8px;
+        margin: 7px;
+        border-radius: 4px;
+        color: #fff;
+        font-weight:bold;
+        border: none;
+        cursor: pointer;
+        &:hover{
+            color: red;
+            background: #ccc;
+        }
+    }
+}
+
+.read_data{
+    text-align: center;
+    h1{
+        background: green;
+        color: #fff;
+    }
+    .list{
+        h3{
+            background: #ccc;
+            display:inline-block;
+            padding: 5px;
+            border-radius: 10px;
+            
+        }
+    }
+}
